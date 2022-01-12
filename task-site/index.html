@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/fontawesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/flick/style.css" media="screen">
+</head>
+<body>
+    <div style="width: 100%;height: auto;" id="mec">
+        <nav id="nav1">
+            <div class="nav1_div nav1_div1" style="width:20%"><i class="fab fa-angrycreative"></i></div>
+            <div class="nav1_div nav1_div2" style="width:40%">
+                <div>
+                    <input type="text" id="search" placeholder=" Search">
+                    <a href=""><i class="fas fa-search"></i></a>
+                </div>
+            </div>
+            <div class="nav1_div nav1_div3" style="width:40%">
+                <ul>
+                    <li><a href="#">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Location</p>
+                    </a></li>
+                    <li><a href="#">
+                        <i class="far fa-heart"></i>
+                        <p>Favorites</p>
+                    </a></li>
+                    <li><a href="#">
+                        <i class="fas fa-shopping-cart"></i>
+                        <p>Cart</p>
+                    </a></li>
+                    <li><a href="#">
+                        <i class="far fa-user"></i>
+                        <p>Sign In/Up</p>
+                    </a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="nav2">
+            <ul>
+                <li><a>All</a></li>
+                <li><a>New</a></li>
+                <li><a>Best Sellers</a></li>
+                <li><a>Eyes</a></li>
+                <li><a>Lips</a></li>
+            </ul>
+            <ul>
+                <li><a>Face</a></li>
+                <li><a>Skin Care</a></li>
+                <li><a>Brushes</a></li>
+                <li><a>Perfume</a></li>
+                <li><a>Delivery</a></li>
+            </ul>
+        </div>
+
+        <div id="carusel"></div>
+        <div class="car_btn">
+            <div id="nkar1" class="nkar_btn" style="background-color: #9A5B6A;"></div>
+            <div id="nkar2" class="nkar_btn"></div>
+            <div id="nkar3" class="nkar_btn"></div>
+            <div id="nkar4" class="nkar_btn"></div>
+        </div>
+
+        <div class="sale"><p style="font-size: 1.5rem;text-align: center;">Sale</p></div>
+        <div class="sales">
+            <div class="sales_div">
+                <div class="sales_div1_div1" style="height: 50%;width: 100%;background-image: url(./img/lip.jpg);">
+                    <div style="display: flex; justify-content: space-between;">
+                        <span style="color:white;height: 100%; background-color: #9A5B6A;">20%</span>
+                        <i class="far fa-heart wish" style="color:#9A5B6A;"></i>
+                    </div>
+                </div>
+                <div class="sales_div1_div2" style="height: 50%;width: 100%;">
+                    <p>Light Sand - light with neutral undertones</p>
+                    <div class="colors">
+                    <div class="colors1"><div style="background-color: #D5BAA7;"></div></div>
+                    <div class="colors1"><div style="background-color: #EEC8A3;"></div></div>
+                    <div class="colors1"><div style="background-color: #E4B6A6;"></div></div>
+                    <div class="colors1"><div style="background-color: #E2B7A6;"></div></div>
+                    <div class="colors1"><div style="background-color: #BE6D58;"></div></div>
+                    <div class="colors1"><div style="background-color: #C8A891;"></div></div>
+                    <div class="colors1"><div style="background-color: #C19473;"></div></div>
+                    <div style="font-size: 40px;height: 45px;width: 40px;" class="addcolor">+</div>
+                    </div>
+                    <p style="font-size: 1.1rem;">Lip Exfoliator</p>
+                    <p style="font-size: 1.1rem;">$ 40.00 <span style="text-decoration: line-through;">$52.00</span></p>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+            <div class="sales_div">
+                <div class="sales_div1_div1" style="height: 50%;width: 100%;background-image: url(./img/camo.jpg);">
+                    <div style="display: flex; justify-content: space-between;">
+                        <span style="color:white;height: 100%; background-color: #9A5B6A;">15%</span>
+                        <i class="far fa-heart wish" style="color:#9A5B6A;"></i>
+                    </div>
+                </div>
+                <div class="sales_div1_div2" style="height: 50%;width: 100%;">
+                    <p>Light Sand - light with neutral undertones</p>
+                    <div class="colors">
+                    <div class="colors2"><div style="background-color: #D5BAA7;"></div></div>
+                    <div class="colors2"><div style="background-color: #EEC8A3;"></div></div>
+                    <div class="colors2"><div style="background-color: #E4B6A6;"></div></div>
+                    <div class="colors2"><div style="background-color: #E2B7A6;"></div></div>
+                    <div class="colors2"><div style="background-color: #BE6D58;"></div></div>
+                    <div class="colors2"><div style="background-color: #C8A891;"></div></div>
+                    <div class="colors2"><div style="background-color: #C19473;"></div></div>
+                    <div style="font-size: 40px;height: 45px;width: 40px;">+</div>
+                    </div>
+                    <p style="font-size: 1.1rem;">Camo Concelear</p>
+                    <p style="font-size: 1.1rem;">$ 87.80 <span style="text-decoration: line-through;">$103.3</span></p>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+            <div class="sales_div">
+                <div class="sales_div1_div1" style="height: 50%;width: 100%;background-image: url(./img/camo2.jpg);">
+                    <div style="display: flex; justify-content: space-between;">
+                        <span style="color:white;height: 100%; background-color: #9A5B6A;">5%</span>
+                        <i class="far fa-heart wish" style="color:#9A5B6A;"></i>
+                    </div>
+                </div>
+                <div class="sales_div1_div2" style="height: 50%;width: 100%;">
+                    <p>Bahamas</p>
+                    <div class="colors">
+                    <div class="colors2"><div style="background-color: #D5BAA7;"></div></div>
+                    <div class="colors2"><div style="background-color: #EEC8A3;"></div></div>
+                    <div class="colors2"><div style="background-color: #E4B6A6;"></div></div>
+                    <div class="colors2"><div style="background-color: #E2B7A6;"></div></div>
+                    <div class="colors2"><div style="background-color: #BE6D58;"></div></div>
+                    <div class="colors2"><div style="background-color: #C8A891;"></div></div>
+                    <div class="colors2"><div style="background-color: #C19473;"></div></div>
+                    <div style="font-size: 40px;height: 45px;width: 40px;">+</div>
+                    </div>
+                    <p style="font-size: 1.1rem;">Camo Concelear</p>
+                    <p style="font-size: 1.1rem;">$ 47.50 <span style="text-decoration: line-through;">$50.00</span></p>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+        <button class="btn_more">More</button>
+
+        <div class="krem">
+            <div style="width: 30%;"></div>
+            <div>
+                <p class="care">New<br> Neauty<br> product<br> for your's face<br> care</p>
+                <button>Try free</button>
+            </div>
+            <div style="background-image: url(./img/neauthy.jpg);"></div>
+        </div>
+
+        <div class="gift"><p style="font-size: 1.5rem;text-align: center;">Give gifts even at a distance</p></div>
+
+        <div class="gifts">
+            <div class="gifts_div">
+                <div style="background-image: url(./img/gift1.png);height: 100%;box-shadow: 3px 3px rgba(0, 0, 0, 0.103);" class="del1"></div>
+                <div style="background-color: #EFE6DD;height: 100%;box-shadow: 3px 3px rgba(0, 0, 0, 0.103);" class="del2">
+                    <div style="padding: 30px 15px" class="home_delivery">
+                        <p>Make your <br>loved ones happy</p>
+                        <p style="padding-top: 20px;">Gifts in original packaging</p>
+                        <p style="padding-top: 20px;color: #9A5B6A;">With home delivery</p>
+                        <button class="btn_order">Order</button>
+                    </div>
+                </div>
+            </div>
+            <div class="gifts_div" style="background-image: url(./img/flowers.jpg);box-shadow: 3px 3px rgba(0, 0, 0, 0.103);">
+                <div class="gift_card">
+                    <i class="fab fa-angrycreative"></i>
+                    <p style="position: absolute;right: 10px;bottom: 10px;font-size: 1.5rem;color: white;">Gift Card</p>
+                </div>
+                <p style="font-size: 1.8rem;text-align: center;">
+                    Gift Cards for your lovely ones
+                </p>
+                <button class="btn_order_card">Order</button>
+            </div>
+        </div>
+
+        <div class="beauty"><p style="font-size: 1.5rem;text-align: center;">Beauty squad exclusive</p></div>
+
+        <div class="products">
+            <div>
+                <div class="prod_div" style="width: 40%;">
+                    <p><span style="font-size:2.5rem;background-color: white;">Points = Free product</span></p>
+                    <p><span style="font-size:1.7rem;">Now you can reedem points <br>for full-size products.</span></p>
+                    <button class="btn_sign">Sign In or Join us</button>
+                </div>
+                <div class="prod_div" style="width: 25%;">
+                    <div style="background-image: url(./img/lip2.png);background-size: cover;height: 90%;width: 90%;background-position: center;"></div>
+                    <p style="font-size:1.1rem;text-align: center;padding: 10px;">Ride or die in boss berry</p>
+                </div>
+                <div class="prod_div" style="width: 25%;">
+                    <div style="background-image: url(./img/chanel.png);background-size: cover;height: 90%;width: 90%;background-position: center;"></div>
+                    <p style="font-size:1.1rem;text-align: center;padding: 10px;">Parfume Chanel yellow</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="love">
+            <div>
+                <div class="text_debilot">
+                    <p>Feel <span>Love</span> <span>Everywhere</span></p>
+                </div>
+                <div class="text_debilot">
+                    <p style="font-size: 1.5rem;color: #26180F;">New parfume <p style="font-size: 2rem;color: #26180F;">di Gioia</p> <p style="font-size: 2rem;color: #26180F;">all for you ~</p></p>
+                </div>
+            </div>
+            <div></div>
+        </div>
+        
+        <div class="gift"><p style="font-size: 1.5rem;text-align: center;">Our products in use</p></div>
+
+        <div class="demqer">
+            <div style="background-image: url(./img/girl1.png);"></div>
+            <div>
+                <div style="background-image: url(./img/girl2.png);height: 80%;background-size: cover;width: 100%;background-position: center;"></div>
+            </div>
+            <div style="background-image: url(./img/girl3.png);"></div>
+        </div>
+
+
+        <footer class="footer">
+            <div class="foot">
+                <ul style="border-right: 2px solid #CCADB4;" class="foot_text">
+                    <div>   
+                        <li>HELP</li>
+                        <li>Contact Us</li>
+                        <li>Track Package</li>
+                    </div> 
+                </ul>
+                <ul style="border-right: 2px solid #CCADB4;" class="foot_text">
+                    <div>   
+                        <li>DISCOVER</li>
+                        <li>About Us</li>
+                        <li>Careers</li>
+                        <li>Where to buy</li>
+                    </div> 
+                </ul>
+                <ul class="foot_text">
+                    <div>   
+                        <li>SERVICES</li>
+                        <li>My Account</li>
+                        <li>Beauty Squad</li>
+                        <li>Wish list</li>
+                        <li>Gift Cards</li>
+                    </div> 
+                </ul>
+                <ul class="logos">
+                    <li><i class="fab fa-instagram"></i></li>
+                    <li><i class="fab fa-facebook-f"></i></li>
+                    <li><i class="fab fa-telegram-plane"></i></li>
+                    <li><i class="fab fa-tiktok"></i></li>
+                    <li><i class="fab fa-pinterest-p"></i></li>
+                </ul>
+            </div>
+            <div style="width:100%;height:2px;background-color:white"></div>
+            <p style="padding: 5px;color:white;font-size: 1.3rem;font-family: Arial, Helvetica, sans-serif;">Copyright © 2022 President and Fellows of Rai Sim</p>
+        </footer>
+    </div>
+
+
+    
+    <div id="phone">
+        <nav class="ph_nav">
+            <div class="navik">
+                <p><b>Home page</b><span><i class="far fa-bell"></i><i class="fas fa-qrcode"></i></span></p>
+                <div class="ph_search">
+                    <i class="fas fa-search"></i>
+                    <input type="text" class="ph_seach_inp" placeholder="Search">
+                </div>
+            </div>
+        </nav>
+        <div class="gallery js-flickity transit">
+            <div class="gallery-cell transit_div">
+                <div>
+                    <p>In-transit delivery</p>
+                    <p>25 - 29 July, your order will arrive and you will notified</p>
+                </div>
+                <div>
+                    <i class="fas fa-box-open" style="color:#9A5B6A;"></i>
+                </div>
+            </div>
+            <div class="gallery-cell transit_div">
+                <div>
+                    <p>In-transit delivery</p>
+                    <p>25 - 29 July, your order will arrive and you will notified</p>
+                </div>
+                <div>
+                    <i class="fas fa-box-open" style="color:#9A5B6A;"></i>
+                </div>
+            </div>
+        </div>
+        <div class="gallery js-flickity summer">
+            <div class="gallery-cell summer_div" style="background-image: url(./img/cosm.jpg);background-size: cover;">
+                <div>
+                    <p>Summer</p>
+                    <p>25%</p>
+                    <p>Sale</p>
+                </div>
+            </div>
+            <div class="gallery-cell summer_div" style="background-image: url(./img/cosm.jpg);background-size: cover;">
+                <div>
+                    <p>Summer</p>
+                    <p>25%</p>
+                    <p>Sale</p>
+                </div>
+            </div>
+        </div>
+
+        <p class="text_between">Best for you</p>
+        
+        <div class="gallery js-flickity foryou">
+            <div class="gallery-cell best">
+                <div class="best1">
+                    <div class="best1_1" style="background-image: url(./img/lip.jpg);">
+                        <div class="best1_1_1">
+                            <span style="color:white;height: 100%;background-color: #9A5B6A;font-size: 1.2rem;">&nbsp;&nbsp;20%&nbsp;&nbsp;</span>
+                            <i class="far fa-heart wish" style="color:#9A5B6A;font-size: 1rem;"></i>
+                        </div>
+                    </div>
+                    <div class="best1_2">
+                        <div style="display: flex;justify-content: space-between;align-items: center;">
+                            <p class="price_p">$ 40.00 <span>$52.50</span></p>
+                            <i class="fas fa-shopping-bag" style="font-size: 1.2rem;"></i>
+                        </div>
+                        <p style="padding-left: 8px;font-family: Arial, Helvetica, sans-serif;">Lip Exfoliator</p>
+                        <div class="ph_colors">
+                            <div>
+                                <div class="colors1"><div style="background-color: #D5BAA7;"></div></div>
+                                <div class="colors1"><div style="background-color: #EEC8A3;"></div></div>
+                                <div class="colors1"><div style="background-color: #E4B6A6;"></div></div>
+                                <div class="colors1"><div style="background-color: #E2B7A6;"></div></div>
+                            </div>
+                            <div>
+                                <div class="colors1"><div style="background-color: #BE6D58;"></div></div>
+                                <div class="colors1"><div style="background-color: #C8A891;"></div></div>
+                                <div class="colors1"><div style="background-color: #C19473;"></div></div>
+                                <div><div style="font-size: 40px;height: 45px;width: 40px;">+</div></div>                 
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="best2">
+                    <div class="best2_1" style="background-image: url(./img/camo2.jpg);">
+                        <div class="best2_1_1">
+                            <span style="color:white;height: 100%;background-color: #9A5B6A;font-size: 1.2rem;">&nbsp;&nbsp;20%&nbsp;&nbsp;</span>
+                            <i class="far fa-heart wish" style="color:#9A5B6A;font-size: 1rem;"></i>
+                        </div>
+                    </div>
+                    <div class="best2_2">
+                        <div style="display: flex;justify-content: space-between;align-items: center;">
+                            <p class="price_p">$ 40.00 <span>$52.50</span></p>
+                            <i class="fas fa-shopping-bag" style="font-size: 1.2rem;"></i>
+                        </div>
+                        <p style="padding-left: 8px;font-family: Arial, Helvetica, sans-serif;">Camo Concelear</p>
+                        <div class="ph_colors">
+                            <div>
+                                <div class="colors2"><div style="background-color: #D5BAA7;"></div></div>
+                                <div class="colors2"><div style="background-color: #EEC8A3;"></div></div>
+                                <div class="colors2"><div style="background-color: #E4B6A6;"></div></div>
+                                <div class="colors2"><div style="background-color: #E2B7A6;"></div></div>
+                            </div>
+                            <div>
+                                <div class="colors2"><div style="background-color: #BE6D58;"></div></div>
+                                <div class="colors2"><div style="background-color: #C8A891;"></div></div>
+                                <div class="colors2"><div style="background-color: #C19473;"></div></div>
+                                <div><div style="font-size: 40px;height: 45px;width: 40px;">+</div></div>                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-cell best">
+                <div class="best1">
+                    <div class="best1_1" style="background-image: url(./img/camo.jpg);">
+                        <div class="best1_1_1">
+                            <span style="color:white;height: 100%;background-color: #9A5B6A;font-size: 1.2rem;">&nbsp;&nbsp;20%&nbsp;&nbsp;</span>
+                            <i class="far fa-heart wish" style="color:#9A5B6A;font-size: 1rem;"></i>
+                        </div>
+                    </div>
+                    <div class="best1_2">
+                        <div style="display: flex;justify-content: space-between;align-items: center;">
+                            <p class="price_p">$ 40.00 <span>$52.50</span></p>
+                            <i class="fas fa-shopping-bag" style="font-size: 1.2rem;"></i>
+                        </div>
+                        <p style="padding-left: 8px;font-family: Arial, Helvetica, sans-serif;">Camo Concelear</p>
+                        <div class="ph_colors">
+                            <div>
+                                <div class="colors3"><div style="background-color: #D5BAA7;"></div></div>
+                                <div class="colors3"><div style="background-color: #EEC8A3;"></div></div>
+                                <div class="colors3"><div style="background-color: #E4B6A6;"></div></div>
+                                <div class="colors3"><div style="background-color: #E2B7A6;"></div></div>
+                            </div>
+                            <div>
+                                <div class="colors3"><div style="background-color: #BE6D58;"></div></div>
+                                <div class="colors3"><div style="background-color: #C8A891;"></div></div>
+                                <div class="colors3"><div style="background-color: #C19473;"></div></div>
+                                <div><div style="font-size: 40px;height: 45px;width: 40px;">+</div></div>                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="best2">
+                    <div class="best2_1" style="background-image: url(./img/lip2.jpg);">
+                        <div class="best2_1_1">
+                            <span style="color:white;height: 100%;background-color: #9A5B6A;font-size: 1.2rem;">&nbsp;&nbsp;20%&nbsp;&nbsp;</span>
+                            <i class="far fa-heart wish" style="color:#9A5B6A;font-size: 1rem;"></i>
+                        </div>
+                    </div>
+                    <div class="best2_2">
+                        <div style="display: flex;justify-content: space-between;align-items: center;">
+                            <p class="price_p">$ 40.00 <span>$52.50</span></p>
+                            <i class="fas fa-shopping-bag" style="font-size: 1.2rem;"></i>
+                        </div>
+                        <p style="padding-left: 8px;font-family: Arial, Helvetica, sans-serif;">Lip Exfoliator</p>
+                        <div class="ph_colors">
+                            <div>
+                                <div class="colors4"><div style="background-color: #D5BAA7;"></div></div>
+                                <div class="colors4"><div style="background-color: #EEC8A3;"></div></div>
+                                <div class="colors4"><div style="background-color: #E4B6A6;"></div></div>
+                                <div class="colors4"><div style="background-color: #E2B7A6;"></div></div>
+                            </div>
+                            <div>
+                                <div class="colors4"><div style="background-color: #BE6D58;"></div></div>
+                                <div class="colors4"><div style="background-color: #C8A891;"></div></div>
+                                <div class="colors4"><div style="background-color: #C19473;"></div></div>
+                                <div><div style="font-size: 40px;height: 45px;width: 40px;">+</div></div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ph_neauty">
+            <p class="ph_care">New Neauty <br> product <br> for your's <br> face care</p>
+            <button>Try free</button>
+        </div>
+
+        <p class="text_between">Give gifts even at a distance</p>
+
+        <div class="gallery js-flickity ph_gifts">
+            <div class="gallery-cell ph_gifts_div">
+                <div style="background-image: url(./img/gift1.png);box-shadow: 3px 3px rgba(0, 0, 0, 0.103);" class="ph_del1"></div>
+                <div style="background-color: #EFE6DD;height: 100%;box-shadow: 3px 3px rgba(0, 0, 0, 0.103);" class="ph_del2">
+                    <div class="ph_home_delivery">
+                        <p>Make your <br>loved ones happy</p>
+                        <p>Gifts in original packaging</p>
+                        <p style="color: #9A5B6A;">With home delivery</p>
+                        <button class="ph_btn_order">Order</button>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-cell ph_gifts_div" style="background-image: url(./img/flowers.jpg);box-shadow: 3px 3px rgba(0, 0, 0, 0.103);">
+                <div class="ph_gift_card">
+                    <i class="fab fa-angrycreative"></i>
+                    <p style="position: absolute;right: 10px;bottom: 5px;font-size: 1rem;color: white;">Gift Card</p>
+                </div>
+                <p style="font-size: 1.2rem;text-align: center;">
+                    Gift Cards for your lovely ones
+                </p>
+                <button class="ph_btn_order_card">Order</button>
+            </div>
+        </div>
+
+        <p class="text_between" style="padding-top: 20px;">Beauty squad exclusive</p>
+        
+        <p class="points">Points = Free products</p>
+        <p class="points2">Now you can reedem points for full-size products.</p>
+        <div class="beauty">
+            <div class="beauty_div">
+                <div style="background-image: url(./img/lip2.png);"></div>
+                <p>Ride or die in boss berry</p>
+            </div>
+            <div class="beauty_div">
+                <div style="background-image: url(./img/chanel.png);"></div>
+                <p>Parfume chanel yellow</p>
+            </div>
+        </div>
+        <div class="ph_sign"><button class="ph_btn_sign">Sign In or Join us</button></div>
+    
+        <p class="text_between">Our products in use</p>
+
+        <div class="gallery js-flickity use">
+            <div class="gallery-cell use_div" style="background-image: url(./img/girl1.png);">
+            </div>
+            <div class="gallery-cell use_div">
+                <div class="use_div_mid" style="background-image: url(./img/girl2.png);"></div>
+            </div>
+            <div class="gallery-cell use_div" style="background-image: url(./img/girl3.png);">
+            </div>
+        </div>
+
+        <footer class="ph_footer">
+            <div class="ph_foot1">
+                <ul class="ph_foot_text">
+                    <div>   
+                        <li>HELP</li>
+                        <li>Contact Us</li>
+                        <li>Track Package</li>
+                    </div> 
+                </ul>
+                <ul class="ph_foot_text">
+                    <div>   
+                        <li>DISCOVER</li>
+                        <li>About Us</li>
+                        <li>Careers</li>
+                        <li>Where to buy</li>
+                    </div> 
+                </ul>
+            </div>
+            <div class="ph_foot1">
+                <ul class="ph_foot_text">
+                    <div>   
+                        <li>SERVICES</li>
+                        <li>My Account</li>
+                        <li>Beauty Squad</li>
+                        <li>Wish list</li>
+                        <li>Gift Cards</li>
+                    </div> 
+                </ul>
+            </div>
+            <ul class="ph_logos">
+                <li><i class="fab fa-instagram"></i></li>
+                <li><i class="fab fa-facebook-f"></i></li>
+                <li><i class="fab fa-telegram-plane"></i></li>
+                <li><i class="fab fa-tiktok"></i></li>
+                <li><i class="fab fa-pinterest-p"></i></li>
+            </ul>
+            <div style="width:100%;height:2px;background-color:white"></div>
+            <p style="padding: 5px;color:white;font-size: 1rem;text-align: center;">Copyright © 2022 President and Fellows of Rai Sim</p>
+        </footer>
+    </div> 
+    
+    
+    
+    <script src="script.js"></script>
+    <script src="/flick/flickity.pkgd.min.js"></script>
+</body>
+</html>
